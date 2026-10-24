@@ -26,6 +26,12 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('password'),
         ]);
 
+        User::create([
+            'name' => 'EJ',
+            'email' => 'ej@gmail.com',
+            'password' => Hash::make('test1234'),
+        ]);
+
         foreach (['BS Information Technology', 'BS Computer Science', 'BS Information Systems'] as $name) {
             Course::create(['name' => $name]);
         }
