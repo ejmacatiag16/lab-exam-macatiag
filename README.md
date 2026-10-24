@@ -2,7 +2,7 @@
 **Author:** Your Full Name
 
 ## Run the project
-1. `git clone <repo-url> && cd lab-exam-macatiag`
+1. `git clone https://github.com/ejmacatiag16/lab-exam-macatiag.git && cd lab-exam-macatiag`
 2. `composer install`
 3. `cp .env.example .env && php artisan key:generate`
 4. Configure the DB in `.env` (SQLite works out of the box: `touch database/database.sqlite`)
