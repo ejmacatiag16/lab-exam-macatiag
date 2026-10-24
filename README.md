@@ -32,6 +32,7 @@
 
 | admin@example.com | password |
 | teacher@example.com | password |
+| ej@gmail.com | test1234 |
 
 
 ## API
